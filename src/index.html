@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello Angular</title>
+    </head>
+    <body ng-app="editor">
+        <h1>Hey Angular!</h1>
+        <div ng-controller="userInfoController">
+            <h2>name: <span ng-bind="name"></span></h2>
+            <form>
+                <input type="text" ng-model="name" />
+            </form>
+        </div>
+    </body>
+</html>
